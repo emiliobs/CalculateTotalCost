@@ -25,7 +25,7 @@ def calculate_total_cost(my_list):
 
 # Example usage
 # This list contains alternating item names and their prices
-my_list = ['LED', 1.50, 'Switch', 5, 'Resistor', 0.10, 'Capacitor', 75, 'Motor', 100]
+my_list = ['Laptop', 1.50, 'Screen', 0, 'Prints', 0, 'Mobile', 0, 'Motor', 200]
 
 # Call the function with 'my_list' and store the returned total cost in the variable 'total'
 total = calculate_total_cost(my_list)
