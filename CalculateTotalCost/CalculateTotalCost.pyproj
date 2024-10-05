@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>15497c24-cecf-4960-88cb-8b4514697ce5</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>CalculateTotalCost.py</StartupFile>
+    <StartupFile>WaterLevelMonitoring.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,9 @@
   <ItemGroup>
     <Compile Include="CalculateTotalCost.py" />
     <Compile Include="CelsiusaToFahrenheit.py" />
+    <Compile Include="PoundsToKiogramsAndViceverse.py" />
+    <Compile Include="WaterLevelMonitoring.py" />
+    <Compile Include="WaterLevelMonitoringv2.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

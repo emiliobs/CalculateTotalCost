@@ -1,5 +1,4 @@
 import time  # Import the time module to use its timing functions
-
 def monitor_water_level(current_level, tank_depth):
     """Monitor the water level in the tank every 10 seconds for 2 minutes."""
     start_time = time.time()  # Record the current time to track monitoring duration
@@ -23,18 +22,14 @@ def monitor_water_level(current_level, tank_depth):
             # Print a message indicating that the tank is full and to switch off the pump
             print("The tank is full, please switch off the water pump.")
             break  # Exit the loop early if the tank is full
-
         # Simulate waiting for the next reading
         time.sleep(interval)  # Pause execution for the specified interval (10 seconds)
-
         # Simulate an increase in the water level for demonstration purposes
         # In a real application, this would come from a water level sensor reading
-        current_level += 5  # Increase the current water level by 5 units (liters)
-
+        current_level += 10  # Increase the current water level by 5 units (liters)
 # Example usage of the function
 if __name__ == "__main__":  # Check if the script is being run directly
     tank_depth = 100  # Define the tank depth (maximum capacity) in liters (or other units)
-    initial_water_level = 10  # Define the initial water level in liters (or other units)
-    
+    initial_water_level = 10  # Define the initial water level in liters (or other units)    
     # Call the function to start monitoring the water level with the initial values
     monitor_water_level(initial_water_level, tank_depth)
